@@ -1,5 +1,8 @@
 ---
 # build project 
-
+            
             - name: build app
-              shell: ng build --prod
+              shell: "{{item}}"
+	      with_items:
+              - npm install
+	      - ng build --prod 
