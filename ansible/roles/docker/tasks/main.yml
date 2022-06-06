@@ -16,11 +16,16 @@
     recreate: true
     ports:
      - "4200:80"
-- name: push container docker
+- name: login dockerhub
   docker_login:
     username: mohamedboubakri
     password: moemenzina.12
     email: mohamed.boubakri@esprit.tn
 
+- name: push image dockerhub
+  docker_image:
+    name: devops
+    push: yes
+    repository: mohamedboubakri/projetcd:latest
 
     
