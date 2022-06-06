@@ -19,7 +19,7 @@
 - name: push container docker
   docker_login:
     username: mohamedBOUBAKRI
-    password: moemenzina.123
+    password: moemenzina.12
     email: mohamed.boubakri@esprit.tn
 
 
