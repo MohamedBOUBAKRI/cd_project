@@ -16,3 +16,11 @@
     recreate: true
     ports:
      - "4200:80"
+- name: push container docker
+  docker_login:
+    username: mohamedBOUBAKRI
+    password: moemenzina.123
+    email: mohamed.boubakri@esprit.tn
+
+
+    
